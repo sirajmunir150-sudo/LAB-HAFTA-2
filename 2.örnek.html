@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablo Örneği</title>
+    <style>
+        table {
+            border: 5px solid blue;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        caption {
+            caption-side: bottom;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        th {
+            background-color: red;
+            color: rgb(0, 191, 255);
+            padding: 8px 15px;
+        }
+        td {
+            padding: 8px 15px;
+            text-align: center;
+        }
+        .isim {
+            background-color: yellow;
+        }
+        .yas {
+            background-color: green;
+            color: azure;
+        }
+        thead th {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">BURASI TABLONUN BAŞLIĞIDIR</th>
+            </tr>
+            <tr>
+                <th>AD</th>
+                <th>YAŞ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="isim">MEHMET</td>
+                <td class="yas">22</td>
+            </tr>
+            <tr>
+                <td class="isim">FATMA</td>
+                <td class="yas">28</td>
+            </tr>
+        </tbody>
+        <caption>ALT YAZI</caption>
+    </table>
+
+</body>
+</html>
