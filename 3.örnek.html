@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablo Örneği</title>
+</head>
+<body>
+
+    <!-- 1. Tablo -->
+    <table border="1">
+        <tr>    
+            <td colspan="3">A</td> 
+            <td>D</td> 
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- 2. Tablo (colspan + rowspan) -->
+    <table border="1">
+        <tr>    
+            <td colspan="3">A</td> 
+            <td>D</td> 
+        </tr>
+        <tr>
+            <td rowspan="2">E</td>
+            <td rowspan="2">F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td colspan="2">J</td>
+            <td>M</td> <!-- extra cell-->
+        </tr>
+    </table>
+
+</body>
+</html>
