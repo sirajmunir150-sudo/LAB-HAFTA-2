@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Siraj Munir - Profile</title>
+</head>
+<body>
+  <!-- 🔹 Header -->
+  <header>
+    <h1>Muhammad Siraj Munir</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- 🔹 About Section -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m <strong>Siraj</strong>, a technology enthusiast who loves learning new things like web development, coding, and design. I enjoy building creative and useful projects that make life easier!</p>
+    </section>
+
+    <!-- 🔹 Skills List -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>C / C++</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>Canva</li>
+        <li>Computer Networks</li>
+      </ul>
+    </section>
+
+    <!-- 🔹 Profile Image -->
+    <section id="Mango">
+      <h2>My Fav Fruit</h2>
+      <img src="https://imgs.search.brave.com/aNM-RGSGzy039NKacYSo8-bGuHXEQxS5KKNdvrz6ZAk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9t/YW5nby1zdGlsbC1s/aWZlXzIzLTIxNTE1/NDIxMTMuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MCZxPTgw" 
+           alt="Siraj's Photo" 
+           width="250">
+    </section>
+  </main>
+
+  <!-- 🔹 Footer -->
+  <footer>
+    <hr>
+    <p>© 2025 Muhammad Siraj Munir — All rights reserved.</p>
+  </footer>
+</body>
+</html>
